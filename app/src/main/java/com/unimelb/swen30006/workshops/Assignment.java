@@ -1,25 +1,18 @@
 package com.unimelb.swen30006.workshops;
 
-// Sample private file class to be replaced by your implementaiton
-class File {
-    private Date createdDate;
-    private String fileData;
-    private String fileName;
+// Sample private submission class to be replaced by your implementation
+class Assignment {
+    private String description;
+    private Date dueDate;
+    private int maxAttempts;
+    private String name;
 
-    public String fileType(){
-        double num = Math.random();
-        if(num<0.5){
-            return "pdf";
-        } else {
-            return "docx";
-        }
-    }
-
-    public Int fileSize(){
+    public Submission[] invalidSubmissions(){
         // implement
     }
 
-    public String content(){
+    public Submission[] validSubmissions(){
         // implement
     }
 }
+
