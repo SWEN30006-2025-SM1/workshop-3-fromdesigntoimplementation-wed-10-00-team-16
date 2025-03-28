@@ -14,11 +14,15 @@ class Assignment {
         this.maxAttempts = maxAttempts;
         this.name = name;
     }
-    
+
     public Submission[] invalidSubmissions(){
         // implement
+        if(){
+
+        }
     }
 
+    /* check if submission is valid or not */
     public Submission[] validSubmissions(){
         // implement
     }
