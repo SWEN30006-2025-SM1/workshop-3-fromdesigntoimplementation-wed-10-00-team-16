@@ -1,9 +1,8 @@
+package com.unimelb.swen30006.workshops;
+
 import com.unimelb.swen30006.workshops.File;
 
 class Submission {
-
-    package com.unimelb.swen30006.workshops;
-
     private int attemptNum;
     private File[] files;
     private int numFiles;
