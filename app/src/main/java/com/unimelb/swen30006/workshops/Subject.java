@@ -14,6 +14,14 @@ class Subject {
     private ArrayList<Assignment> assignments;
 
     /**
+     * Constructor
+     */
+    public Subject(String name, String subjectCode) {
+        this.name = name;
+        this.subjectCode = subjectCode;
+    }
+
+    /**
      * creates assignment when called
      */
     public void createAssignment(String description, Date dueDate, int maxAttempts, String name){
@@ -25,7 +33,7 @@ class Subject {
      */
     public void deleteAssignment(String name){
         for (Assignment assignment : assignments) {
-            if (assignments.getName() == name) {
+            if (assignment.getName() == name) {
                 assignments.remove(assignment)
             }
         }

@@ -22,5 +22,9 @@ class Assignment {
     public Submission[] validSubmissions(){
         // implement
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
 
