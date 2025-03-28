@@ -2,7 +2,7 @@ package com.unimelb.swen30006.workshops;
 import java.util.Date;
 
 // Sample private file class to be replaced by your implementaiton
-class File {
+public class File {
     private Date createdDate;
     private String fileData;
     private String fileName;
