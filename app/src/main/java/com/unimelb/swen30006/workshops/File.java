@@ -1,4 +1,5 @@
 package com.unimelb.swen30006.workshops;
+import java.util.Date;
 
 // Sample private file class to be replaced by your implementaiton
 class File {
@@ -15,10 +16,12 @@ class File {
         }
     }
 
-    public Int fileSize(){
+    /* calculate file size */
+    public int fileSize(){
         // implement
     }
 
+    /* prints out the content in the file */
     public String content(){
         // implement
     }

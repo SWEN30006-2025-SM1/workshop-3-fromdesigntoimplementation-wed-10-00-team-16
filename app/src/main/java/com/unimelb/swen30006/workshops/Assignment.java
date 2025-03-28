@@ -1,4 +1,5 @@
 package com.unimelb.swen30006.workshops;
+import java.util.Date;
 
 // Sample private submission class to be replaced by your implementation
 class Assignment {
@@ -7,6 +8,13 @@ class Assignment {
     private int maxAttempts;
     private String name;
 
+    public Assignment(String description, Date dueDate, int maxAttempts, String name) {
+        this.description = description;
+        this.dueDate = dueDate;
+        this.maxAttempts = maxAttempts;
+        this.name = name;
+    }
+    
     public Submission[] invalidSubmissions(){
         // implement
     }
