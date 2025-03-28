@@ -1,6 +1,7 @@
 package com.unimelb.swen30006.workshops;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 /**
@@ -15,8 +16,8 @@ class Subject {
     /**
      * creates assignment when called
      */
-    public void createAssignment(){
-        this.assignments.add(new Assignment());
+    public void createAssignment(String description, Date dueDate, int maxAttempts, String name){
+        this.assignments.add(new Assignment(description, dueDate, maxAttempts, name));
     }
 
     /**
