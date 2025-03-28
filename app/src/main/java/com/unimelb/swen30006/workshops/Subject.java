@@ -34,7 +34,7 @@ class Subject {
     public void deleteAssignment(String name){
         for (Assignment assignment : assignments) {
             if (assignment.getName() == name) {
-                assignments.remove(assignment)
+                assignments.remove(assignment);
             }
         }
     }
