@@ -3,7 +3,7 @@ package com.unimelb.swen30006.workshops;
 import java.util.ArrayList;
 
 /** Simple Sample Validator that only considers the file types
- * Created by mat on 10/02/2016.
+ * Created by mat on 10/0zz2/2016.
  */
 public class SampleValidator implements SubmissionValidator{
 

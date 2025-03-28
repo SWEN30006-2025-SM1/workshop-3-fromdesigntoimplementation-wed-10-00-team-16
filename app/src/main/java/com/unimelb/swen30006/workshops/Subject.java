@@ -1,5 +1,6 @@
 package com.unimelb.swen30006.workshops;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -9,12 +10,13 @@ import java.util.HashMap;
 class Subject {
     private String name;
     private String subjectCode;
+    private ArrayList<Assignment> assignments;
 
     /**
      * creates assignment when called
      */
     public void createAssignment(){
-        //implement function
+        this.assignments.add(new Assignment());
     }
 
     /**
