@@ -24,7 +24,11 @@ class Subject {
      * deletes passed in assignment
      */
     public void deleteAssignment(String name){
-        //implement function
+        for (Assignment assignment : assignments) {
+            if (assignments.getName() == name) {
+                assignments.remove(assignment)
+            }
+        }
     }
 
 
